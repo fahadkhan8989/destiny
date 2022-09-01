@@ -49,7 +49,6 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: EdgeInsets.symmetric(vertical: 50, horizontal: 15),
         constraints: BoxConstraints.expand(),
         child: Column(
-          // mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Expanded(
@@ -94,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 visible: storyBrain.buttonVisibility(),
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.blue[800],
+                    primary: Colors.blueAccent,
                     textStyle: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
